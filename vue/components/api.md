@@ -4,16 +4,16 @@
 
 返回顶部，无依赖，直接引入调用
 
-![alt text](../static/backtotop.png "Title")
+![alt text](../static/backtotop.jpg "Title")
 
 ## Captcha
 
 滑动验证，阿里的验证，需要去阿里申请，需要后台配合
 会根据网络判断是使用goole验证（墙外）还是阿里验证
 
-![alt text](../static/captcha.png "Title")
+![alt text](../static/captcha.jpg "Title")
 
-![alt text](../static/captcha-google.png "Title")
+![alt text](../static/captcha-google.jpg "Title")
 
 ## CountDown
 
@@ -41,7 +41,7 @@
 
 | 名称     | 类型       | 是否必须  | 说明         |
 | -------- | ------    | -------- | ------------ |
-| value    | Data || Data[]    | 否       | 日期的默认值 |
+| value    | Data or Data[]    | 否       | 日期的默认值 |
 | keys    | Array   | 是       | 要为`parent`设置的字段 |
 | type    | String   | 否       | 默认`datetimerange`，默认日期范围，其它值可以是`data | daterange`等，参考 `Element-UI` |
 | format   | String    | 否       | 默认`yyyy-MM-dd HH:mm:ss` |
